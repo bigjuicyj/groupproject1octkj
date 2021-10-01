@@ -1,0 +1,20 @@
+MAIN THINGS:
+
+The design of your code is not really object oriented, you're making methods that shouldn't be static, static
+Ideally, you'd want to have menus that you pass around as objects, everything that is an object should
+have behavior in it, e.g. your item class is a perfect example of this, it's an object.
+
+Because your code design revolves around the main menu being static, everything else ends up falling apart
+because now you're forced to make everything static.
+
+As for team communication, it seems like your team could benefit from standup meetings. What this means is
+that every odd day, you reconvene and go over the code for 15mins, and delegate tasks.
+
+An example of this is as such:
+
+ON MONDAY - go over 15mins, e.g. "Hey what have you done, let's see"
+            "Oh, okay, I'll do X for Wednesday"
+
+and then you repeat this on Wednesday, and on Friday, and the standup meetings don't have to be like a long time
+they can just be like 5mins, just to check in on each other
+
